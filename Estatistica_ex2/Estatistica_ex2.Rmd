@@ -1,0 +1,12 @@
+install.packages("lattice")
+install.packages("abind")
+install.packages("car")
+install.packages("fdth")
+library (car)
+library (lattice)
+library (fdth)
+
+load("C:/Users/drulla/Desktop/Estatistica_ex1/imoveiscwbav.RData")
+head(imoveiscwbav)
+summary(imoveiscwbav)
+View(imoveiscwbav)
